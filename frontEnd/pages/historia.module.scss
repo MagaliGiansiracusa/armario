@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Cormorant+SC:wght@300&family=Petit+Formal+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.historia{
+    background-color: #FFFFE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    h1{
+        font-family: "Amatic SC", cursive;
+       font-size: 40px;
+        color: rgb(206, 196, 96);
+        margin-bottom: 20px;
+    }
+}
+.container{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px wheat;
+    position: relative;
+    width: 280px;
+    height: 750px;
+    align-items: center;
+
+    p{
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;  
+        font-weight:100;  
+        text-align: center;
+    }
+   
+
+}

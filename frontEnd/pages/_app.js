@@ -1,7 +1,7 @@
 import "./globals.scss";
 import Head from "next/head";
 import Header from "../components/layout/Header";
-
+import { FaBars } from "react-icons/fa";
 const Layout = ({ children }) => {
     return (
         <>

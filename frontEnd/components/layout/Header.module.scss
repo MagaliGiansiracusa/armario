@@ -1,9 +1,78 @@
 .header {
-    background-color: pink;
+    background-color: #CDE990;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    img{
+        display: none;
+        height: 120px;
+        width: 120px;
+    
+     }
+}
+.respmenu{
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar{
-    ul{
+
+    .links{
+       position: relative;
         list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        text-decoration: none;
+       
+        li{
+            margin: 15px;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 1.2rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            
+
+        }
     }
+}
+.respmenu {
+
+    display: block;
+    position: relative;
+    height: 60px;
+  }
+
+.checkbox{
+    position: absolute;
+  display: block;
+  height: 32px;
+  width: 32px;
+  top: 20px;
+  left: 20px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+.burger{
+    height: 32px;
+  width: 32px;
+
+  top: 20px;
+  left: 20px;
+  margin-left: 10px;
+  color: white;
+  position: absolute;
+}
+
+input[type=checkbox]:checked ~ .links .a{
+    transform: rotate(90deg);
 }
